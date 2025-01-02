@@ -1,7 +1,0 @@
-import React from 'react'
-
-export const HackerRoom = () => {
-    return (
-        <div>HackerRoom</div>
-    )
-}
