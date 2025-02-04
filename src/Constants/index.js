@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+        title: 'Real Time Messenger',
+        desc: 'The real-time messaging platform utilizing Next.js for server-side rendering and API routes, React for a dynamic frontend, Prisma for efficient data modeling and querying, MongoDB for flexible data storage, NextAuth.js for secure user authentication, and TypeScript for enhanced code reliability and maintainability.',
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+            'Built as a unique conversation platform for a web  app with Next.js 14, Tailwind CSS, TypeScript. Real Time Messenger is designed for optimal performance and scalability.',
+        href: 'https://messenger-chat-pi.vercel.app/',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
@@ -89,8 +89,13 @@ export const myProjects = [
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'MongoDB',
+                path: '/assets/MongoDB.png',
+            },
+            {
+                id: 5,
+                name: 'NextJs',
+                path: '/assets/Next.png',
             },
         ],
     },
