@@ -7,7 +7,7 @@ import DemoComputer from "../components/DemoComputer.jsx";
 
 const projectCount = myProjects.length;
 
-const Projects = () => {
+export const Projects = () => {
     const [selectedProjectsIndex, setSelectedProjectsIndex] = useState(0);
 
     const handleNavigation = (direction) => {
