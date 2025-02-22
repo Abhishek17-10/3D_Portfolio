@@ -4,6 +4,7 @@ import About from "./sections/About.jsx";
 import {Projects} from "./sections/Projects.jsx";
 import {Clients} from "./sections/Clients.jsx";
 import Contact from "./sections/Contact.jsx";
+import {Footer} from "./sections/Footer.jsx";
  const App = () => {
   return (
       <main className= "max-w-7xl mx-auto">
@@ -14,6 +15,7 @@ import Contact from "./sections/Contact.jsx";
           <Clients/>
 
           <Contact/>
+          <Footer/>
       </main>
   );
  }
