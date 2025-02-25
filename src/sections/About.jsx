@@ -24,7 +24,7 @@ const About = () => {
                         <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">Hi, I am Abhishek </p>
-                            <p className="grid-subtext">With 2 years of experience , I honed my skills  in full-stack development utilizing the MERN stack , AI/ML with a focus on animated 3D websites</p>
+                            <p className="grid-subtext">Web developer specializing in Three.js 3D animations and interactive experiences. Currently expanding into data analytics with PowerBI and Tableau to create visually compelling, data-driven web applications that transform complex information into intuitive experiences.</p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const About = () => {
                         <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
-                            <p className="grid-subtext">I  specialize in javascript/typescript with a focus on React ,AI/ML and Next.js ecosystems </p>
+                            <p className="grid-subtext">Skilled developer specializing in JavaScript/TypeScript with advanced expertise in React and Three.js for creating sophisticated 3D visualizations and interactive web experiences. </p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const About = () => {
                         <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">My passion for Coding</p>
-                            <p className="grid-subtext">I love solving problems and building things through code</p>
+                            <p className="grid-subtext">I love solving problems and building things through code and Driven by a passion for coding and continuous learning, I actively expand my expertise beyond web development into data analytics. My current focus on PowerBI and data visualization techniques reflects my commitment to creating meaningful visual narratives from complex data sets, combining technical expertise with creative problem-solving</p>
                         </div>
                     </div>
                 </div>

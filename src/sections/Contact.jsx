@@ -9,7 +9,6 @@ const Contact = () => {
     const handleChange = ({ target: { name, value } }) => {
         setForm({ ...form, [name]: value });
     };
-    //service_i5zv7fj
     const handleSubmit =  async (e) => {
         e.preventDefault();
         setLoading(true);
@@ -41,7 +40,7 @@ const Contact = () => {
                 <img src="/assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen"/>
                 <div className="contain-content">
                     <h3 className="head-text">Let's Talk</h3>
-                    <p className="text-lg text-white-600 mt-3">Whether you're looking to build a new websites, animations or Analysis the data, I'm here to help</p>
+                    <p className="text-lg text-white-600 mt-3">Whether you're looking to build a new websites, animations or to visualize the data, I'm here to help</p>
                     <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
                         <label className="space-y-3">
                             <span className="field-label">Full Name
