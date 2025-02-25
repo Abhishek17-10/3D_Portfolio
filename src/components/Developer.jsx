@@ -1,8 +1,9 @@
 
-import { useGLTF } from '@react-three/drei'
 
-const Developer = (props) => {
+import { useGLTF } from '@react-three/drei'
+const Developer=(props) => {
     const { nodes, materials } = useGLTF('/models/animations/developer.glb')
+
     return (
         <group {...props} dispose={null}>
             <primitive object={nodes.Hips} />
@@ -67,5 +68,8 @@ const Developer = (props) => {
     )
 }
 
-useGLTF.preload('/models/animations/developer.glb')
+useGLTF.preload('/models/animations/developer.glb');
+
 export default Developer;
+
+
