@@ -24,36 +24,34 @@ export const navLinks = [
 export const clientReviews = [
     {
         id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
+        name: 'Complete 2022 Web development Bootcamp' ,
+        position: 'udemy',
         img: 'assets/review1.png',
-        review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+        link:'https://www.udemy.com/certificate/UC-6ed6925d-10f7-4375-9e01-e3ce7e848600/',
+        review: 'Completed a comprehensive web development bootcamp on Udemy in 2022, gaining hands-on experience in building dynamic and responsive websites. This bootcamp provided a strong foundation in modern web technologies.',
     },
     {
         id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
+        name: 'Deloitte',
+        position: 'Salesforce Developer Intern',
         img: 'assets/review2.png',
-        review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+        review:'Completed a 3-month Salesforce Development internship at Deloitte, gaining practical experience in customizing and developing on the Salesforce platform. I learned to build and deploy solutions using Apex, Lightning Web Components, and Salesforce\'s declarative tools.',
     },
     {
         id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
+        name: 'BrainWave Matrix Solutions',
+        position: 'Web Development Intern',
         img: 'assets/review3.png',
-        review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+        review:'Interned as a Web Developer at Brainwave Matrix Solutions, where I applied my knowledge of web development principles to create functional and user-friendly web solutions. I learned to collaborate effectively within a development team and gained valuable insights into the software development lifecycle'
     },
     {
         id: 4,
-        name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
+        name: 'Data Analytics Foundation',
+        position: 'Google Data Analytics Foundation',
         img: 'assets/review4.png',
-        review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+        review: 'Successfully completed the Google Data Analytics Professional Certificate, gaining proficiency in data cleaning, analysis, visualization, and utilizing tools like SQL and Tableau."',
     },
+
 ];
 
 export const myProjects = [
