@@ -195,3 +195,47 @@ body {
     transform: rotate(0deg);
   }
 }
+.work-cointainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.work-canvas {
+  position: relative;
+  height: 350px;
+  width: 100%;
+}
+
+.canvas-model {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+  .work-cointainer {
+    flex-direction: row;
+  }
+
+  .work-canvas {
+    height: 500px;
+    width: 40%;
+  }
+
+  .work-content {
+    width: 60%;
+  }
+}
+
+/* Media query for full screen */
+@media screen and (min-width: 1024px) {
+  .work-canvas {
+    height: 600px;
+    width: 50%;
+  }
+
+  .work-content {
+    width: 50%;
+  }
+}

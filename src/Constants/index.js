@@ -35,6 +35,7 @@ export const clientReviews = [
         name: 'Deloitte',
         position: 'Salesforce Developer Intern',
         img: 'assets/review2.png',
+        link: 'https://smartinternz.com/internships/salesforce_certificates/dd560513ce9a8f22602978b85cb8d921',
         review:'Completed a 3-month Salesforce Development internship at Deloitte, gaining practical experience in customizing and developing on the Salesforce platform. I learned to build and deploy solutions using Apex, Lightning Web Components, and Salesforce\'s declarative tools.',
     },
     {
@@ -49,6 +50,7 @@ export const clientReviews = [
         name: 'Data Analytics Foundation',
         position: 'Google Data Analytics Foundation',
         img: 'assets/review4.png',
+        link: 'https://www.coursera.org/account/accomplishments/records/3M3JX45PFDOG',
         review: 'Successfully completed the Google Data Analytics Professional Certificate, gaining proficiency in data cleaning, analysis, visualization, and utilizing tools like SQL and Tableau."',
     },
 
@@ -98,13 +100,13 @@ export const myProjects = [
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        title: 'Football Analysis tracker',
+        desc: 'This project leverages computer vision and deep learning to analyze football matches through video. Using YOLO for object detection, the system accurately tracks players, referees, and the ball throughout gameplay. Players are assigned to their respective teams through K-means clustering based on uniform colors, enabling calculation of team ball possession percentages. ',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+            'Transforming football video into performance analytics through advanced computer vision — from player tracking and team identification to real-world movement metrics.',
+        href: 'https://github.com/Abhishek17-10/Football_analysis_Tracker',
         texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        logo: '/assets/project-logo3.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
@@ -114,31 +116,26 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'yolo',
+                path: '/assets/yolo.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'jupyter',
+                path: 'assets/jupyter.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'python',
+                path: '/assets/python.png',
             },
         ],
     },
     {
-        title: 'CarePulse - Health Management System',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+        title: 'Movie Recommendation System',
+        desc: 'Developed a personalized movie recommendation engine using collaborative filtering algorithms and content-based analysis to suggest relevant films based on user preferences and viewing history.',
         subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+            'Engineered a recommendation algorithm that processes user-movie interactions through NumPy\'s efficient matrix operations, enabling accurate prediction of viewer preferences. The system analyzes patterns in the Kaggle dataset to identify similarities between users and content, creating personalized suggestions that improve as users rate more films.',
         href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
@@ -153,32 +150,27 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'python',
+                path: '/assets/python.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'jupyter',
+                path: 'assets/jupyter.png',
             },
             {
                 id: 3,
                 name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: '/assets/kaggle.png',
             },
         ],
     },
     {
-        title: 'Horizon - Online Banking Platform',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+        title: 'Eager to see more? ',
+        desc: 'Eager to see more? Explore my full project repository on GitHub.where you can find a comprehensive collection of my work, demonstrating my commitment to clean, efficient, and innovative code',
         subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+            'Explore my full project repository on GitHub to delve into the technical details and see the breadth of my coding experience across various projects.',
+        href: 'https://github.com/Abhishek17-10/',
         texture: '/textures/project/project4.mp4',
         logo: '/assets/project-logo4.png',
         logoStyle: {
@@ -190,60 +182,8 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
-        ],
-    },
-    {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-        subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-        texture: '/textures/project/project5.mp4',
-        logo: '/assets/project-logo5.png',
-        logoStyle: {
-            backgroundColor: '#1C1A43',
-            border: '0.2px solid #252262',
-            boxShadow: '0px 0px 60px 0px #635BFF4D',
-        },
-        spotlight: '/assets/spotlight5.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Github.js',
+                path: '/assets/github.svg',
             },
         ],
     },
@@ -263,29 +203,21 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. ",
-        icon: '/assets/framer.svg',
+        name: 'Salesforce Developer',
+        pos: 'Internship',
+        duration: '3 Months',
+        title: "As an intern at Salesforce, I collaborated with cross-functional teams to implement custom solutions using Apex, Visualforce, and Lightning components. while also developing and maintaining integrations with third-party applications via REST APIs.",
+        icon: '/assets/review2.png',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. ",
-        icon: '/assets/figma.svg',
+        name: 'Brainwave Matrix Solution',
+        pos: 'Web Developer Intern',
+        duration: '6 months',
+        title: "Contributed to the design, development, and optimization of dynamic web applications. I gained hands-on experience in front-end and back-end development, collaborating with the team to enhance user experience and improve website functionality. ",
+        icon: '/assets/review3.png',
         animation: 'clapping',
     },
-    {
-        id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
-        duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized..",
-        icon: '/assets/notion.svg',
-        animation: 'salute',
-    },
+
 ];
