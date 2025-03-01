@@ -71,6 +71,10 @@ const About = () => {
                                 <img src={hasCopied ? 'assets/check.svg' : 'assets/copy.svg'} alt="copy" className="w-6 h-6"/>
                                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">abhishekyadav2773@gmail.com</p>
                             </div>
+                            <div className="copy-container mt-3">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Phone_font_awesome.svg/1200px-Phone_font_awesome.svg.png" alt="phone" className="w-6 h-6"/>
+                                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">+91 9116550238</p>
+                            </div>
                         </div>
                     </div>
                 </div>

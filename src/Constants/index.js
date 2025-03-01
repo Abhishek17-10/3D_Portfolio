@@ -40,10 +40,11 @@ export const clientReviews = [
     },
     {
         id: 3,
-        name: 'BrainWave Matrix Solutions',
-        position: 'Web Development Intern',
-        img: 'assets/review3.png',
-        review:'Interned as a Web Developer at Brainwave Matrix Solutions, where I applied my knowledge of web development principles to create functional and user-friendly web solutions. I learned to collaborate effectively within a development team and gained valuable insights into the software development lifecycle'
+        name: 'CCNA: Switching, Routing, and Wireless Essentials',
+        position: 'CISCO',
+        img: 'assets/Cisco.png',
+        link: 'https://www.credly.com/badges/7559e8f7-2aee-40d5-bf95-00e8a7d4272d/linked_in_profile',
+        review:'Foundation laid in switching operations, wired and wireless LAN configuration using security best practices, redundancy protocols, and developed problem-solving skills'
     },
     {
         id: 4,
@@ -136,7 +137,7 @@ export const myProjects = [
         desc: 'Developed a personalized movie recommendation engine using collaborative filtering algorithms and content-based analysis to suggest relevant films based on user preferences and viewing history.',
         subdesc:
             'Engineered a recommendation algorithm that processes user-movie interactions through NumPy\'s efficient matrix operations, enabling accurate prediction of viewer preferences. The system analyzes patterns in the Kaggle dataset to identify similarities between users and content, creating personalized suggestions that improve as users rate more films.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        href: 'https://github.com/Abhishek17-10/Movie-Recommendation-System',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
@@ -167,9 +168,9 @@ export const myProjects = [
     },
     {
         title: 'Eager to see more? ',
-        desc: 'Eager to see more? Explore my full project repository on GitHub.where you can find a comprehensive collection of my work, demonstrating my commitment to clean, efficient, and innovative code',
+        desc: ' Explore my full project repository on GitHub.where you can find a comprehensive collection of my work, demonstrating my commitment to clean, efficient, and innovative code',
         subdesc:
-            'Explore my full project repository on GitHub to delve into the technical details and see the breadth of my coding experience across various projects.',
+            'Take a look on my  projects repository on GitHub to delve into the technical details and see the breadth of my coding experience across various projects.',
         href: 'https://github.com/Abhishek17-10/',
         texture: '/textures/project/project4.mp4',
         logo: '/assets/project-logo4.png',

@@ -13,7 +13,7 @@ const NavItems = ({resumeLink}) => {
             ))}
             <li className="nav-li">
                 <a
-                    href='https://drive.google.com/file/d/1dwyWs_-AFe-R5Crno7_BIjolIOnxh9l_/view?usp=sharing'
+                    href='https://drive.google.com/file/d/122ml8qYygBi4IkssC5SXcU_Rh4Uc1Z7b/view?usp=sharing'
                     className="nav-li_a bg-neutral-700 px-3 py-1 rounded hover:bg-neutral-600"
                     target="_blank"
                     rel="noopener noreferrer"
